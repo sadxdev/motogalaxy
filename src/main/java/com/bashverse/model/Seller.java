@@ -5,6 +5,7 @@ import com.bashverse.domain.USER_ROLE;
 import jakarta.persistence.*;
 import lombok.*;
 
+
 @Entity
 @Getter
 @Setter
@@ -40,5 +41,5 @@ public class Seller {
 
     private boolean isEmailVerified;
 
-    private AccountStatus accountStatus = new AccountStatus.PENDING_VERIFICATION;
+    private AccountStatus accountStatus = new AccountStatus.PENDING_VERIFICATION();
 }
