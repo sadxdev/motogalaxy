@@ -15,6 +15,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @EqualsAndHashCode
+@Table(name = "orders")
 public class Order {
 
     @Id
@@ -23,6 +24,7 @@ public class Order {
 
     private String orderId;
 
+    @ManyToOne
     private User user;
 
     private Long sellerId;

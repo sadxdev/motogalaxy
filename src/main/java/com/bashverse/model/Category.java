@@ -28,9 +28,4 @@ public class Category {
     @NotNull
     private Integer level;
 
-
-
-
-
-
 }

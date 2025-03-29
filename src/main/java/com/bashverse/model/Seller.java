@@ -41,5 +41,5 @@ public class Seller {
 
     private boolean isEmailVerified;
 
-    private AccountStatus accountStatus = new AccountStatus.PENDING_VERIFICATION();
+    private AccountStatus accountStatus = AccountStatus.PENDING_VERIFICATION;
 }
